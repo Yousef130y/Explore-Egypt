@@ -1,0 +1,88 @@
+        /*Muisc-Styles.css*/
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d98c4a;
+        }
+        header {
+            background-color: #e9ae7b;
+            color: rgb(255, 255, 255);
+            padding: 15px 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            background-color: #c76a25;
+            padding: 10px 0;
+            border-radius: 8px;
+            border: white solid 5px;
+            width: 560px;
+        }
+        nav li {
+            display: inline;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 15px;
+            transition: background 0.3s, color 0.3s;
+        }
+        nav ul li a span {
+            opacity: 0;
+            transform: translateX(-10px);
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+        nav ul li a.active span {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        nav ul li a:hover span {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .music-section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .music-section h2 {
+            color: #c76a25;
+            border-bottom: 2px solid #c76a25;
+            padding-bottom: 10px;
+        }
+        .music-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .music-section li {
+            background-color: #ecf0f1;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            font-size: 18.5px;
+        }
+
+        .copyright h3{
+            text-align: center;
+            color: #ffffff;
+            font-size: 21.5px;
+        }
+        

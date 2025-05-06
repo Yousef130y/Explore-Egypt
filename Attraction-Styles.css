@@ -1,0 +1,69 @@
+/*Attraction-Styles.css*/
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d98c4a;
+}
+header {
+    background-color: #e9ae7b;
+    color: rgb(255, 255, 255);
+    padding: 15px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: -50px;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #c76a25;
+    padding: 10px 0;
+    border-radius: 8px;
+    border: white solid 5px;
+    width: 560px;
+}
+nav li {
+    display: inline;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background 0.3s, color 0.3s;
+}
+nav{
+    
+    color: #c76a25;
+    border-radius: 5px;
+}
+
+nav ul li a span {
+    opacity: 0; /* Hide text by default */
+    transform: translateX(-10px); /* Start slightly to the left */
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+nav ul li a.active span {
+    opacity: 1; /* Show text */
+    transform: translateX(0); /* Move to original position */
+}
+nav ul li a:hover span {
+    opacity: 1; /* Show text on hover */
+    transform: translateX(0); /* Move to original position */
+}
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+
+video{
+    margin-bottom: -550px;
+    margin-left: 350px;
+}
